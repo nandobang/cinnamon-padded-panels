@@ -1,0 +1,71 @@
+.panel-top.padded {
+  background-color: rgba(0, 0, 0, 0) !important;
+  padding-top: 10px !important;
+  padding-bottom: 10px !important;
+}
+
+.panel-top.padded #panelCenter.padded {
+  background-color: rgba(0, 0, 0, 0.75) !important;
+  padding-top: 0px !important;
+  padding-left: 100px !important;
+  padding-right: 100px !important;
+  border-radius: 7px !important;
+}
+
+.panel-top.padded #panelRight.padded {
+  background-color: rgba(0, 0, 0, 0.75) !important;
+  padding-top: 0px !important;
+  padding-left: 10px !important;
+  border-radius: 7px 0 0 7px !important;
+}
+
+.panel-top.padded #panelLeft.padded {
+  background-color: rgba(0, 0, 0, 0.75) !important;
+  padding-top: 0px !important;
+  padding-right: 10px !important;
+  border-radius: 0 7px 7px 0 !important;
+}
+
+.panel-bottom.padded {
+  background-color: rgba(0, 0, 0, 0) !important;
+  padding-bottom: 10px !important;
+  padding-top: 10px !important;
+}
+
+.panel-bottom.padded #panelCenter.padded {
+  background-color: rgba(0, 0, 0, 0.75) !important;
+  border-radius: 7px !important;
+  padding-left: 10px !important;
+  padding-right: 10px !important;
+}
+
+.window-list-box {
+}
+
+.panel-bottom.padded .grouped-window-list-box {
+  height: 20px !important;
+}
+
+.grouped-window-list-item-box.bottom,
+.grouped-window-list-item-box.bottom:active,
+.window-list-item-box.bottom,
+.window-list-item-box.bottom:active {
+  height: 20px !important;
+  width: 40px !important;
+  padding: 0 !important;
+  margin-bottom: 10px !important;
+}
+
+.grouped-window-list-item-box #appMenuIcon,
+.grouped-window-list-item-box StIcon,
+.window-list-item-box #appMenuIcon,
+.window-list-item-box StIcon,
+.grouped-window-list-item-box StBin {
+  margin: 0 !important;
+  padding: 0 !important;
+  padding-bottom: 10px !important;
+}
+
+.grouped-window-list-item-box #appMenuIcon {
+  width: 40px !important;
+}

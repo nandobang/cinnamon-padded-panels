@@ -1,0 +1,12 @@
+{
+  "uuid": "cinnamon-padded-panels@nandobang",
+  "name": "Cinnamon Padded Panels",
+  "description": "Turns the top and bottom panels padded with a small distance from the screen edges.",
+  "author": "nandobang",
+  "cinnamon-version": [
+    "6.4"
+  ],
+  "url": "none",
+  "website": "none",
+  "version": "1.0.0"
+}

@@ -1,0 +1,31 @@
+{
+  "layout": {
+    "type": "layout",
+    "pages": [
+      "general-page"
+    ],
+
+    "general-page": {
+      "type": "page",
+      "title": "General",
+      "sections": [
+        "general-settings"
+      ]
+    },
+
+    "general-settings": {
+      "type": "section",
+      "title": "General settings",
+      "keys": [
+        "foo"
+      ]
+    }
+  },
+
+  "foo": {
+    "type": "switch",
+    "default": false,
+    "description": "Dummy control",
+    "tooltip": "Nothing to see here"
+  }
+}
